@@ -4,14 +4,286 @@
 <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
 <meta name='robots' content='noindex'>
-<title>Krista AI — Growth Workspace</title>
-<style>body{margin:0;font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:#0e1b33;color:#eaf0fb;display:flex;min-height:100vh;align-items:center;justify-content:center;text-align:center}.card{max-width:640px;padding:48px 32px}h1{font-size:2rem;margin:0 0 12px}p{color:#a9b8d6;line-height:1.6}.tag{letter-spacing:.2em;font-size:.75rem;color:#5b8def;text-transform:uppercase}</style>
+<title>Krista AI — Automate Customer Service Without the Sprawl</title>
+<meta name='description' content='Krista builds your Enterprise Brain: one governed agentic AI platform that unifies people, systems, and AI to resolve customer service end to end. Book a demo.'>
+<!-- NVM Boost - NV-2026-1980 - D6 conversion landing page - brand-audited from krista.ai - noindex (paid/staging ad destination, not production domain) -->
+<link rel='preconnect' href='https://fonts.googleapis.com'>
+<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+<link href='https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lora:ital@1&display=swap' rel='stylesheet'>
+<style>
+:root{
+--color-primary:#0e1b33;
+--color-secondary:#5b8def;
+--color-secondary-2:#7aa5f0;
+--color-text:#0e1b33;
+--color-bg:#ffffff;
+--color-bg-alt:#f4f7fc;
+--color-navy-text:#eaf0fb;
+--color-muted:#5c6b86;
+--font-heading:'Inter',system-ui,sans-serif;
+--font-body:'Inter',system-ui,sans-serif;
+--font-accent:'Lora',Georgia,serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font-body);color:var(--color-text);background:var(--color-bg);line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+img{max-width:100%}
+.container{max-width:1080px;margin:0 auto;padding:0 24px}
+.btn{display:inline-block;background:var(--color-secondary);color:#fff;font-weight:700;padding:14px 26px;border-radius:8px;font-size:.98rem;transition:background .2s;border:none;cursor:pointer}
+.btn:hover{background:#3f74d9}
+.btn-ghost{background:transparent;border:1px solid rgba(255,255,255,.45);color:#fff}
+.btn-ghost:hover{background:rgba(255,255,255,.12)}
+.eyebrow{letter-spacing:.18em;text-transform:uppercase;font-size:.72rem;font-weight:700;color:var(--color-secondary)}
+h1,h2,h3{font-family:var(--font-heading);line-height:1.15;color:var(--color-primary)}
+h2{font-size:2rem;margin-bottom:14px}
+h3{font-size:1.15rem;margin-bottom:8px}
+p{color:var(--color-muted)}
+.section{padding:72px 0}
+.section-alt{background:var(--color-bg-alt)}
+.center{text-align:center}
+.utility{background:#0a1428;color:var(--color-navy-text);font-size:.8rem}
+.utility .container{display:flex;justify-content:space-between;align-items:center;padding-top:8px;padding-bottom:8px;flex-wrap:wrap;gap:8px}
+.utility a{color:var(--color-secondary-2);font-weight:600}
+.nav{background:var(--color-primary);position:sticky;top:0;z-index:50}
+.nav .container{display:flex;align-items:center;justify-content:space-between;padding-top:14px;padding-bottom:14px}
+.brand{display:flex;align-items:center;gap:10px}
+.brand img{height:34px;width:34px;border-radius:7px}
+.brand span{color:#fff;font-weight:800;letter-spacing:.02em;font-size:1.1rem}
+.nav-links{display:flex;align-items:center;gap:24px}
+.nav-links a{color:var(--color-navy-text);font-weight:500;font-size:.92rem}
+.nav-links a.btn{color:#fff}
+.hero{position:relative;background:linear-gradient(rgba(9,17,38,.86),rgba(9,17,38,.93)),url('https://krista.ai/wp-content/uploads/2021/10/Krista-blue-cover.001.jpeg');background-size:cover;background-position:center;color:#fff}
+.hero .container{padding-top:92px;padding-bottom:92px;max-width:840px}
+.hero h1{color:#fff;font-size:3rem;font-weight:800;margin:16px 0 18px}
+.hero h1 em{font-family:var(--font-accent);color:var(--color-secondary-2);font-style:italic;font-weight:400}
+.hero .sub{font-size:1.2rem;color:#cdd8ef;max-width:670px;margin-bottom:28px}
+.cta-row{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
+.hero .meta{margin-top:26px;font-size:.85rem;color:#9fb0d1;display:flex;gap:20px;flex-wrap:wrap}
+.trustbar{background:var(--color-primary);color:var(--color-navy-text);border-top:1px solid rgba(255,255,255,.08)}
+.trustbar .container{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;padding-top:22px;padding-bottom:22px;text-align:center}
+.trustbar div{flex:1;min-width:150px}
+.trustbar strong{display:block;color:#fff;font-size:1.05rem}
+.trustbar small{color:#9fb0d1}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.card{background:#fff;border:1px solid #e6ecf6;border-radius:12px;padding:26px;box-shadow:0 2px 10px rgba(14,27,51,.04)}
+.card .ic{width:42px;height:42px;border-radius:9px;background:rgba(91,141,239,.12);display:flex;align-items:center;justify-content:center;color:var(--color-secondary);font-weight:800;margin-bottom:14px}
+.card a{color:var(--color-secondary);font-weight:600;font-size:.9rem}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center}
+.problem li{margin:10px 0;color:var(--color-muted);list-style:none;padding-left:26px;position:relative}
+.problem li:before{content:'\2715';position:absolute;left:0;color:#d5455f;font-weight:700}
+.plan{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;counter-reset:step}
+.plan .step{position:relative;padding-top:8px}
+.plan .num{width:38px;height:38px;border-radius:50%;background:var(--color-secondary);color:#fff;font-weight:800;display:flex;align-items:center;justify-content:center;margin-bottom:12px}
+.proof{background:var(--color-primary);color:#fff}
+.proof .container{padding-top:64px;padding-bottom:64px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;text-align:center;margin-top:8px}
+.stats .n{font-size:2.6rem;font-weight:800;color:var(--color-secondary-2);font-family:var(--font-heading)}
+.stats small{color:#9fb0d1}
+.quotes{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:34px}
+.quote{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:12px;padding:22px}
+.quote p{color:#dbe4f6;font-style:italic}
+.quote .who{margin-top:14px;color:#fff;font-weight:700;font-size:.9rem}
+.quote .who small{display:block;color:#9fb0d1;font-weight:400}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:stretch}
+.addr-card{background:var(--color-primary);color:#fff;border-radius:12px;padding:28px}
+.addr-card h3{color:#fff}
+.addr-card p{color:#c7d3ec;margin-bottom:8px}
+.addr-card a{color:var(--color-secondary-2);font-weight:600}
+.map{border:0;width:100%;height:260px;border-radius:12px;margin-top:16px}
+.book{border:1px solid #e6ecf6;border-radius:12px;padding:28px;background:var(--color-bg-alt)}
+.book label{display:block;font-size:.82rem;font-weight:600;color:var(--color-primary);margin:12px 0 4px}
+.book input,.book textarea{width:100%;padding:11px 13px;border:1px solid #cfd9ea;border-radius:8px;font-family:inherit;font-size:.95rem}
+.banner{background:linear-gradient(120deg,#12213f,#1b3straggler)}
+.banner{background:linear-gradient(120deg,#12213f,#1c3companion)}
+.cta-banner{background:linear-gradient(120deg,#12213f,#20386b);color:#fff;text-align:center}
+.cta-banner .container{padding-top:56px;padding-bottom:56px}
+.cta-banner h2{color:#fff}
+.cta-banner p{color:#c7d3ec;margin-bottom:22px}
+.footer{background:#0a1428;color:#9fb0d1;font-size:.88rem}
+.footer .container{padding-top:48px;padding-bottom:36px;display:grid;grid-template-columns:2fr 1fr 1fr;gap:28px}
+.footer h4{color:#fff;font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;margin-bottom:12px}
+.footer a{display:block;color:#9fb0d1;margin-bottom:8px}
+.footer .brand span{font-size:1rem}
+.legal{border-top:1px solid rgba(255,255,255,.08);color:#7185a6;font-size:.78rem}
+.legal .container{padding-top:16px;padding-bottom:24px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+@media(max-width:820px){.grid3,.plan,.stats,.quotes,.split,.contact,.footer .container{grid-template-columns:1fr}.hero h1{font-size:2.2rem}.nav-links{display:none}h2{font-size:1.6rem}}
+</style>
 </head>
 <body>
-<div class='card'>
-<div class='tag'>North Vista Marketing x Krista AI</div>
-<h1>Growth workspace is live</h1>
-<p>This site is being provisioned under Agreement NV-2026-1980. The conversion landing page and content are on the way.</p>
+<div class='utility'>
+<div class='container'>
+<span>Enterprise HQ - 2633 McKinney Ave, Suite 130-374, Dallas, TX 75204</span>
+<span>SOC 2 Type II - HIPAA - ISO 27001 &nbsp;|&nbsp; <a href='tel:+18772574782'>+1 (877) 2KRISTA</a></span>
 </div>
+</div>
+<nav class='nav'>
+<div class='container'>
+<a class='brand' href='https://krista.ai'><img src='https://krista.ai/wp-content/uploads/2020/12/KristaSoft-Badge-300x300.png' alt='Krista AI logo'><span>Krista AI</span></a>
+<div class='nav-links'>
+<a href='https://krista.ai/what-is-krista/'>What is Krista</a>
+<a href='https://krista.ai/solutions/conversation-agent/'>Solutions</a>
+<a href='https://krista.ai/trust/'>Trust</a>
+<a class='btn' href='https://krista.ai/contact'>Book a Demo</a>
+</div>
+</div>
+</nav>
+<header class='hero'>
+<div class='container'>
+<span class='eyebrow'>Enterprise Agentic AI for Customer Service</span>
+<h1>Automate customer service <em>without</em> the agent sprawl.</h1>
+<p class='sub'>Krista builds your Enterprise Brain - one governed agentic platform where people, systems, and AI share memory, reason over your rules, and resolve customer requests end to end. Not another disconnected chatbot.</p>
+<div class='cta-row'>
+<a class='btn' href='https://krista.ai/contact'>Build Your Brain - Book a Demo</a>
+<a class='btn btn-ghost' href='tel:+18772574782'>Call +1 (877) 2KRISTA</a>
+</div>
+<div class='meta'>
+<span>Unified memory and governance</span>
+<span>Human-in-the-loop by design</span>
+<span>Live in weeks, not quarters</span>
+</div>
+</div>
+</header>
+<div class='trustbar'>
+<div class='container'>
+<div><strong>Complete</strong><small>One platform, no agent sprawl</small></div>
+<div><strong>Cognitive</strong><small>Shared memory that reasons on your rules</small></div>
+<div><strong>Careful</strong><small>Zero-trust, audited, confidence-scored</small></div>
+<div><strong>Compliant</strong><small>SOC 2 - HIPAA - ISO 27001</small></div>
+</div>
+</div>
+<section class='section'>
+<div class='container split'>
+<div>
+<span class='eyebrow'>The real problem</span>
+<h2>More bots did not fix your service. They fragmented it.</h2>
+<p>Every point solution speaks its own language, forgets context the moment a customer switches channels, and leaves your team stitching together answers by hand. The result is slower resolutions, compliance risk, and AI you cannot fully trust to act.</p>
+<ul class='problem'>
+<li>Disconnected chatbots that cannot see each other's context</li>
+<li>Customers repeating themselves across chat, email, and voice</li>
+<li>Black-box automation your risk and compliance teams cannot approve</li>
+</ul>
+</div>
+<div class='card'>
+<div class='ic'>K</div>
+<h3>One brain, every channel</h3>
+<p>Krista unifies knowledge from your systems, documents, and interactions so agents share context and the whole organization responds as one - across chat, email, and voice.</p>
+<a href='https://krista.ai/what-is-krista/'>See what Krista is &rarr;</a>
+</div>
+</div>
+</section>
+<section class='section section-alt'>
+<div class='container'>
+<div class='center' style='max-width:620px;margin:0 auto 40px'>
+<span class='eyebrow'>What Krista automates</span>
+<h2>Resolve the work, not just the reply.</h2>
+<p>Purpose-built agents that take action inside your systems - governed, accurate, and accountable.</p>
+</div>
+<div class='grid3'>
+<div class='card'><div class='ic'>1</div><h3>Conversation Agent</h3><p>Turn every customer conversation into knowledge and action across channels, with memory that persists.</p><a href='https://krista.ai/solutions/conversation-agent/'>Learn more &rarr;</a></div>
+<div class='card'><div class='ic'>2</div><h3>Email Triage &amp; Responses</h3><p>Route intents with ML accuracy and scale resolutions - without adding headcount or sprawl.</p><a href='https://krista.ai/solutions/email-classification-triage/'>Learn more &rarr;</a></div>
+<div class='card'><div class='ic'>3</div><h3>Document Processing</h3><p>Extract actions from documents and complete the downstream workflow automatically.</p><a href='https://krista.ai/solutions/document-processing/'>Learn more &rarr;</a></div>
+</div>
+</div>
+</section>
+<section class='section'>
+<div class='container split'>
+<div class='card'>
+<span class='eyebrow'>Why Krista</span>
+<h3 style='font-size:1.4rem;margin-top:6px'>Governance is built in, not bolted on.</h3>
+<p>Krista quantifies its certainty - acting when confident and escalating to a human when it is not - inside a strict Draft, Test, Live lifecycle with full audit trails. Your team gets automation it can actually approve.</p>
+</div>
+<div>
+<span class='eyebrow'>How you get there</span>
+<h2>Three steps to your Enterprise Brain.</h2>
+<div class='plan'>
+<div class='step'><div class='num'>1</div><h3>Book a demo</h3><p>Call +1 (877) 2KRISTA or request a time. We map your highest-value service workflow.</p></div>
+<div class='step'><div class='num'>2</div><h3>Connect systems</h3><p>Krista unifies your knowledge, tools, and rules into one shared brain.</p></div>
+<div class='step'><div class='num'>3</div><h3>Go live, governed</h3><p>Launch with confidence scoring, human-in-the-loop, and audit trails from day one.</p></div>
+</div>
+</div>
+</div>
+</section>
+<section class='proof'>
+<div class='container'>
+<div class='center' style='max-width:620px;margin:0 auto'>
+<span class='eyebrow'>Real outcomes</span>
+<h2 style='color:#fff'>Enterprises are already running on Krista.</h2>
+</div>
+<div class='stats'>
+<div><div class='n'>80%</div><small>reduction in overall costs (Doc Prep 911)</small></div>
+<div><div class='n'>95%</div><small>less labor for specific processes</small></div>
+<div><div class='n'>80%</div><small>faster work processing</small></div>
+</div>
+<div class='quotes'>
+<div class='quote'><p>&ldquo;Krista allows us to operate with up to 95% less labor for specific processes, achieve an 80% reduction in overall costs, and process work 80% faster.&rdquo;</p><div class='who'>Doc Prep 911<small>Real Estate Document Services</small></div></div>
+<div class='quote'><p>&ldquo;Tech Genius, built on Krista, delivers strategic insights that feel like you are talking directly to one of our senior advisors.&rdquo;</p><div class='who'>Robert Beaty<small>Senior Partner, OTG Consulting</small></div></div>
+<div class='quote'><p>&ldquo;Integrating with Krista is a win-win across the board. We eliminate human friction and automate tedious, administrative tasks.&rdquo;</p><div class='who'>Elise Burns<small>CEO &amp; Founder, Evette</small></div></div>
+</div>
+</div>
+</section>
+<section class='section' id='book'>
+<div class='container'>
+<div class='center' style='max-width:620px;margin:0 auto 36px'>
+<span class='eyebrow'>Get started</span>
+<h2>Book your Krista demo.</h2>
+<p>See how one governed agentic platform replaces your service sprawl. We will tailor the demo to your workflows.</p>
+</div>
+<div class='contact'>
+<div class='book'>
+<form action='https://krista.ai/contact' method='get'>
+<label>Full name</label><input type='text' name='name' placeholder='Jane Smith'>
+<label>Work email</label><input type='email' name='email' placeholder='jane@company.com'>
+<label>Company</label><input type='text' name='company' placeholder='Company, Inc.'>
+<label>What would you like to automate?</label><textarea rows='3' name='message' placeholder='Customer service, email triage, document workflows...'></textarea>
+<div style='margin-top:18px'><button class='btn' type='submit'>Request My Demo</button></div>
+</form>
+</div>
+<div class='addr-card'>
+<h3>Talk to Krista</h3>
+<p>Krista Software</p>
+<p>2633 McKinney Ave, Suite 130-374<br>Dallas, TX 75204</p>
+<p><a href='tel:+18772574782'>+1 (877) 2KRISTA</a></p>
+<p><a href='mailto:krista@kristasoft.com'>krista@kristasoft.com</a></p>
+<iframe class='map' loading='lazy' src='https://www.google.com/maps?q=2633+McKinney+Ave+Dallas+TX+75204&output=embed' title='Krista HQ Dallas'></iframe>
+</div>
+</div>
+</div>
+</section>
+<section class='cta-banner'>
+<div class='container'>
+<h2>Ready to build your Enterprise Brain?</h2>
+<p>Stop managing bots. Start orchestrating one brain for your business.</p>
+<div class='cta-row' style='justify-content:center'>
+<a class='btn' href='https://krista.ai/contact'>Book a Demo</a>
+<a class='btn btn-ghost' href='tel:+18772574782'>+1 (877) 2KRISTA</a>
+</div>
+</div>
+</section>
+<footer class='footer'>
+<div class='container'>
+<div>
+<a class='brand' href='https://krista.ai' style='margin-bottom:12px'><img src='https://krista.ai/wp-content/uploads/2020/12/KristaSoft-Badge-300x300.png' alt='Krista AI logo' style='height:30px;width:30px;border-radius:6px'><span style='color:#fff;font-weight:800'>Krista AI</span></a>
+<p style='max-width:320px'>The enterprise agentic AI platform that remembers, reasons, and acts - unifying people, systems, and AI into one brain for your business.</p>
+</div>
+<div>
+<h4>Solutions</h4>
+<a href='https://krista.ai/solutions/conversation-agent/'>Conversation Agent</a>
+<a href='https://krista.ai/solutions/email-classification-triage/'>Email Triage</a>
+<a href='https://krista.ai/solutions/document-processing/'>Document Processing</a>
+</div>
+<div>
+<h4>Dallas HQ</h4>
+<a href='#'>2633 McKinney Ave, Ste 130-374</a>
+<a href='#'>Dallas, TX 75204</a>
+<a href='tel:+18772574782'>+1 (877) 2KRISTA</a>
+</div>
+</div>
+<div class='legal'>
+<div class='container'>
+<span>&copy; Krista Software. All rights reserved.</span>
+<span>Prepared by North Vista Marketing - Agreement NV-2026-1980</span>
+</div>
+</div>
+</footer>
 </body>
 </html>
