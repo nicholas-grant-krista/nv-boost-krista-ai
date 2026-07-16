@@ -33,3 +33,11 @@
 | Date | Line | Deliverable | Commit | Krista Execution | Status |
 |------|------|-------------|--------|------------------|--------|
 | 2026-07-16 | Boost Engine | Workspace provisioned (repo + Pages) | this commit | — | done |
+| 2026-07-16 | Boost Engine | Signed MSA filed to doc set (docset: NV-2026-1980-Krista-AI-signed-MSA.pdf) | — | Manage Document Sets 2.9 | ingesting |
+| 2026-07-16 | Conversion Landing Page | Demo-booking LP (docs/index.html) | 8e0ef49 | — | published |
+| 2026-07-16 | Keyword Blog | Agentic AI for customer service (docs/blog/agentic-ai-customer-service.html) | e8330d8 | — | published |
+| 2026-07-16 | Paid Google Search | Keyword plan + brief/ad copy (campaigns/) | 0e03ca3 | — | artifact — launch spend-gated (HELD) |
+| 2026-07-16 | SEO and GEO | Page-optimization strategy (reports/2026-07-page-optimization-strategy.md) | c2bf390 | — | done — SEMrush metrics scheduled |
+
+## Backlog & holds
+See reports/2026-07-16-run-manifest.md for held and backlogged deliverables (Meta ads, CRM workspace, call/form tracking, GBP optimization, live dashboard, AI-search) and the rationale for each.
