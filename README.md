@@ -1,30 +1,15 @@
-# {{CUSTOMER_NAME}} — NVM Boost
+# nv-boost-krista-ai
 
-Client delivery workspace. Created and maintained by Krista.
+North Vista Marketing delivery workspace for Krista AI — Agreement NV-2026-1980.
+Orchestrated by NVM Boost (nv-contract-orchestrator).
 
-- **Client:** {{CUSTOMER_NAME}}
-- **Slug:** {{CUSTOMER_SLUG}}
-- **Domain:** {{DOMAIN}}
-- **Active Lines:** {{ACTIVE_LINES}}
+## Layout
+- docs/ — live client site (GitHub Pages: main -> /docs)
+- campaigns/ — campaign specs and assets
+- reports/ — audits, monthly reports, run manifests
+- client-profile/ — identity, agreement pointer, SoW, Delivery Log (SANITIZED)
 
-## What's where
+## Notes
+Real client, public workspace, profile sanitized per the NVM Boost sanitization protocol. Commercial terms and the signed MSA are not stored in git — they live in the Krista doc set nv-boost-krista-ai (query via Ask Krista).
 
-| Folder | In plain terms |
-|---|---|
-| `docs` | **The live website** — landing pages published to the web. (GitHub requires the publishing folder be named `docs`; think of it as "the site.") |
-| `campaigns` | Ad copy, campaign specs, and email campaigns |
-| `reports` | Monthly performance reports and audits |
-| `client-profile` | The living client profile — scope of work, brand voice, delivery history |
-
-## Naming notes for non-developers
-
-- `index.html` inside `docs` is the site's **homepage** — that filename is a web standard and can't change. Additional landing pages get plain-English names, e.g. `heel-pain-landing-page.html`.
-- The full delivery history is under the **Commits** link on this page — every filing, stamped and dated.
-- Any file ending in `.md` renders as a formatted document when you click it.
-
-## Conventions (for Krista and anyone filing manually)
-
-- Krista commits directly to `main`. No branches, no PRs.
-- Commit message format: `[<Line Name>] <description> – YYYY-MM-DD`
-- Multi-file deliverables land as one atomic commit.
-- Placeholder tokens (`{{...}}`) are resolved by Krista at provisioning time.
+Live site: https://nicholas-grant-krista.github.io/nv-boost-krista-ai/

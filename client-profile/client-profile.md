@@ -1,32 +1,35 @@
-# Client Profile — {{CUSTOMER_NAME}}
+# Client Profile — Krista AI
 
-> Read/written by Boost skills. Krista appends; humans read.
+> Real client, public workspace, profile SANITIZED per NVM Boost sanitization protocol.
+> Commercial terms, fees, and personal contact details are not stored here.
+> Authoritative signed MSA: Krista doc set nv-boost-krista-ai (query via Ask Krista).
 
-## Profile
+## Identity
+- Client: Krista AI (Krista Software)
+- Website: https://krista.ai
+- HQ / service area: Dallas, TX (2633 McKinney Ave, Suite 130-374)
+- Industry: Enterprise agentic AI platform (B2B SaaS)
+- Primary contact: see signed MSA (doc set)
 
-- **Client:** {{CUSTOMER_NAME}}
-- **Slug:** {{CUSTOMER_SLUG}}
-- **Domain:** {{DOMAIN}}
-- **Provisioned:** {{PROVISIONED_DATE}}
-- **Active Lines:** {{ACTIVE_LINES}}
+## Agreement
+- Agreement no.: NV-2026-1980
+- Provider: North Vista Marketing LLC
+- Effective date: on execution (last signature)
+- Term: initial 6 months, then month-to-month
+- Fees / ad spend / billing: see signed MSA (doc set nv-boost-krista-ai)
 
-## Business Summary
+## Scope of Work (Lines)
+- Local Visibility: GBP optimization; live reporting dashboard
+- Paid Ads: CRM workspace; paid Google search ads; paid Meta ads; conversion landing page; call/form tracking
+- SEO and GEO: page-optimization strategy; keyword-focused blog writing; AI search optimization
 
-_Populated at intake._
+## Brand
+- Tagline: Krista Builds Your Enterprise Brain
+- Positioning: enterprise agentic AI platform — Complete, Cognitive, Careful
+- Social: twitter.com/krista_ai, linkedin.com/company/krista-ai
+- Logo: https://krista.ai/wp-content/uploads/2020/12/KristaSoft-Badge-300x300.png
 
-## Brand & Voice Notes
-
-_Populated by first content deliverable; refined over time._
-
-## Delivery Log
-
+## Delivery Log (schema v2.1)
 | Date | Line | Deliverable | Commit | Krista Execution | Status |
-|---|---|---|---|---|---|
-
-<!-- Delivery Log schema v2 (2026-07-10):
-  Commit = git SHA of the delivering commit, or "—" when the deliverable produced no git artifact.
-  Krista Execution = execution_id · task_id · report_id (whichever exist, "·"-separated; "—" for
-  local skill runs with no Krista conversation). Every Krista conversation execution MUST log its
-  IDs here in the same turn it completes, and the same record is written to the KME on the Krista
-  side — commit SHA is the join key from Krista to git; task/report IDs are the join key from git
-  to Krista. A run is not "done" until its identity exists in both stores. -->
+|------|------|-------------|--------|------------------|--------|
+| 2026-07-16 | Boost Engine | Workspace provisioned (repo + Pages) | this commit | — | done |
